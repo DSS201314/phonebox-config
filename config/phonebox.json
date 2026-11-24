@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-11-24T10:40:00Z",
+  "appVersion": "1.9.192",
+  "writer": "initial-template",
+  "sources": {
+    "vod": [],
+    "live": [],
+    "liveGroups": []
+  },
+  "adBlock": {
+    "on": true,
+    "customRules": [],
+    "stats": {
+      "lastDropCount": 0,
+      "lastHost": ""
+    }
+  },
+  "player": {
+    "decoder": "auto",
+    "defaultQuality": "",
+    "speed": 1.0,
+    "skipIntroDefault": 0,
+    "skipOutroDefault": 0
+  },
+  "meta": {
+    "note": "由 PhoneBox 手机端上传，TV/平板端只读拉取；请勿手工破坏 schema 字段。"
+  }
+}
