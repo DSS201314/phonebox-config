@@ -1,29 +1,27 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-24T10:40:00Z",
-  "appVersion": "1.9.192",
+  "updatedAt": "2026-11-24T12:00:00Z",
+  "appVersion": "1.9.193",
   "writer": "initial-template",
   "sources": {
-    "vod": [],
+    "vodRaw": "",
+    "vodUrl": "",
     "live": [],
-    "liveGroups": []
+    "activeLiveName": ""
   },
   "adBlock": {
     "on": true,
-    "customRules": [],
-    "stats": {
-      "lastDropCount": 0,
-      "lastHost": ""
-    }
+    "customRules": []
   },
   "player": {
-    "decoder": "auto",
-    "defaultQuality": "",
-    "speed": 1.0,
-    "skipIntroDefault": 0,
-    "skipOutroDefault": 0
+    "quality_mode": "high",
+    "auto_next": true,
+    "external_enabled": false,
+    "theme_mode": "dark",
+    "accent": "blue",
+    "seek_sensitivity": "std",
+    "jump_step_sec": 0,
+    "decoder": "auto"
   },
-  "meta": {
-    "note": "由 PhoneBox 手机端上传，TV/平板端只读拉取；请勿手工破坏 schema 字段。"
-  }
+  "meta": "由 PhoneBox 手机端上传；只读端请勿回写。"
 }
